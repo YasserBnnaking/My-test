@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Test.web � Create account</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <main class="page">
+        <section class="card" aria-labelledby="title"><a class="brand" href="#" aria-label="Test home"><span
+                    class="brand-mark">T</span><span>Test.web</span></a>
+            <div class="intro">
+                <p class="eyebrow">GET STARTED</p>
+                <h1 id="title">Create your account</h1>
+                <p class="subhead">Sign up with your email and password.</p>
+            </div>
+            <form id="register-form" novalidate><label for="email">Email address</label><input id="email" name="email"
+                    type="email" placeholder="you@example.com" autocomplete="email" required><label
+                    for="password">Password</label>
+                <div class="password-wrap"><input id="password" name="password" type="password"
+                        placeholder="At least 8 characters" autocomplete="new-password" minlength="8" required><button
+                        class="toggle" type="button" aria-label="Show password" aria-pressed="false">Show</button></div>
+                <p class="hint">Use at least 8 characters.</p><button class="submit" type="submit">Create account <span
+                        aria-hidden="true">&#8594;</span></button>
+                <p class="message" id="form-message" role="status" aria-live="polite"></p>
+            </form>
+            <p class="terms">By continuing, you agree to our <a href="#">Terms</a> and <a href="#">Privacy Policy</a>.
+            </p>
+        </section>
+        <footer>� 2026 Test.web</footer>
+    </main>
+    <script src="script.js"></script>
+</body>
+
+</html>
